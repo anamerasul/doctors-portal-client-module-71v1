@@ -1,16 +1,11 @@
 import React from "react";
 import chair from "./../../assets/images/chair.png";
+import bg from "./../../assets/images/bg.png";
 
 const Banner = () => {
   return (
-    <div
-      style={{
-        backgroundImage: "url(./../../assets/images/chair.png)",
-        backgroundSize: "80% 100%",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <div className="hero min-h-screen px-12">
+    <div>
+      <div className={`hero min-h-screen px-12 {bg-[url(${bg})]}`}>
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={chair}
