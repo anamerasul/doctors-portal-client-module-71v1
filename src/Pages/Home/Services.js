@@ -5,6 +5,7 @@ import cavity from "./../../assets/images/cavity.png";
 
 import whitening from "./../../assets/images/whitening.png";
 import treatment from "./../../assets/images/treatment.png";
+import PrimaryButton from "../Shared/ButtonGroup/PrimaryButton/PrimaryButton";
 const Services = () => {
   const services = [
     {
@@ -66,9 +67,7 @@ const Services = () => {
               here', making it look like readable English. Many desktop
               publishing packages and web page
             </p>
-            <button className="bg-gradient-to-r from-secondary to-primary btn btn-primary">
-              Get Started
-            </button>
+            <PrimaryButton> Get Started</PrimaryButton>
           </div>
         </div>
       </div>
