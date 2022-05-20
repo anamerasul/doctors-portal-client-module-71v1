@@ -22,7 +22,7 @@ const Header = () => {
     </>
   );
   return (
-    <div className="container-md px-24">
+    <div className="">
       <nav className="container-sm">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
